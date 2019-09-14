@@ -17,7 +17,7 @@
 	<div class="container">
             <h2>Recent Posts</h2>
             <ul>
-                {{ range first 5 .Site.RegularPages.ByPublishDate.Reverse }}
+                {{ range first 25 .Site.RegularPages.ByPublishDate.Reverse }}
                     <li>
                         <span>{{ .Render "time-element" }}</span>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
