@@ -1,0 +1,17 @@
+[[]]
+from = "https://fervent-kilby-d7235d.netlify.com/*"
+to = "https://okanemochi.tk/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://nostalgic-nightingale-2ed52e.netlify.com/*"
+to = "https://code.okanemochi.tk/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://upbeat-nightingale-f84837.netlify.com/*"
+to = "https://rouken.okanemochi.tk/:splat"
+status = 301
+force = true
