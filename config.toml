@@ -1,0 +1,25 @@
+baseURL = "https://rouken.okanemochi.tk"
+languageCode = "ja-jp"
+title = "働くナースの体験談"
+theme = "hugo-grapes"
+enableEmoji = true
+
+[permalinks]
+  post = "/posts/:slug/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 20
+
+[params]
+avatar = "img/grapes.svg"
