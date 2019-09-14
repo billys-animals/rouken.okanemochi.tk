@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: gomagaru/blog_netlify
+  repo: billys-animals/rouken.okanemochi.tk
   branch: master
 
 publish_mode: editorial_workflow
